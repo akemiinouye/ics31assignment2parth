@@ -8,11 +8,12 @@ int main(int argc, char** argv) {
     Node* A = NULL;
     Node* Z = NULL;
     
-    LinkedList* linkedListObject = new LinkedList();
+    LinkedList* linkedListObject = new LinkedList;
     int logins = linkedListObject->loginCount;
     cout << logins;
     bool isEmpty = linkedListObject ->isEmpty(A);
-
+    
+    delete linkedListObject;
     
     return 0;
 }
