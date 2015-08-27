@@ -3,7 +3,7 @@
 using namespace std;
 
 LinkedList::LinkedList() {
-    head -> next = NULL;
+    head = NULL;
     loginCount = 0;
 };
 
@@ -48,5 +48,23 @@ void LinkedList::insert(Node *&head, Node *&last, string inputUN, string inputPW
         //delete temp;
     }
 }
+
+/*void LinkedList::searchForMatch(Node *&head, Node *&last, string inputUN){
+    
+}
+
+
+void LinkedList::remove(Node *&head, Node *&last, string inputUN){
+    if (isEmpty(head))
+        cout << "NONEXISTENT";
+    
+    else{
+        for(i=0; i<loginCount; i++){
+            
+        }
+        
+    }
+}
+void clear(Node *&head, Node *&last);*/
 
 
